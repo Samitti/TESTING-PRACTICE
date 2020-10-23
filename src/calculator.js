@@ -13,3 +13,5 @@ const calculator = (a,b,operator) => {
 };
 
 module.exports = calculator;
+
+
