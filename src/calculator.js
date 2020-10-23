@@ -1,17 +1,14 @@
-const calculator = (a,b,operator) => {
-  if (operator == '+') {
+const calculator = (a, b, operator) => {
+  if (operator === '+') {
     return a + b;
-  } else if (operator == '-') {
+  } if (operator === '-') {
     return a - b;
-  } else if (operator == '*') {
+  } if (operator === '*') {
     return a * b;
-  } else if (operator == '/') {
+  } if (operator === '/') {
     return a / b;
-  } else {
-    return 'Error:';
   }
+  return 'Error:';
 };
 
 module.exports = calculator;
-
-
